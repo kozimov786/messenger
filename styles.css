@@ -1,0 +1,125 @@
+html{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background-color: lightblue;
+    font-family: 'Roboto';
+}
+*::after,
+*::before{
+    box-sizing: inherit;
+}
+.container{
+    width: 500px;
+    background-color:#fff;
+    margin: auto;
+    margin-top: 150px;
+}
+.chats{
+    width: 460px;
+    background-color: rgb(82, 84, 189);
+    padding: 25px 20px 20px 20px;
+}
+.chats-name{
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    align-items: center;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 700;
+    line-height: 10px;
+    letter-spacing: 1px;
+}
+.chats-text{
+    font-weight: 500;
+    line-height: 25px;
+}
+.about-app{
+    width: 300px;
+    background-color: rgb(175, 175, 174);
+    margin-top: 10px;
+    margin-left: 30px;
+    padding: 15px 10px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+}
+.about-sending{
+    width: 300px;
+    background-color: rgb(235, 235, 225);
+    margin-top: 10px;
+    margin-left: 150px;
+    padding: 15px 10px;
+    margin-bottom: 30px;
+    border-radius: 4px;
+}
+.about-mark{
+    width: 100px;
+    background-color: rgb(168, 168, 167);
+    margin-top: 10px;
+    margin-left: 30px;
+    border-radius: 4px;
+    padding: 15px 10px;
+    margin-bottom: 30px;
+}
+.about-users{
+    width: 200px;
+    border-radius: 4px;
+    background-color: rgb(180, 84, 54);
+    margin-top: 10px;
+    margin-left: 250px;
+    padding: 15px 10px;
+    margin-bottom: 30px;
+}
+.today{
+    text-align: center;
+    padding-top: 20px;
+    color: #888;
+    align-items: center;
+    margin-bottom: 60px;
+}
+.today::before{
+    content: "";
+    display: inline-block;
+    align-items: center;
+    width: 200px;
+    margin-right: 10px;
+    height: 2px;
+    background-color:#888;
+}
+.today::after{
+    content: "";
+    display: inline-block;
+    align-items: center;
+    width: 200px;
+    height: 2px;
+    background-color:#888;
+    margin-left: 10px;
+}
+.hours{
+    color:#888;
+    margin: 0 0 0 30px;
+}
+.hours-second{
+    margin-left: 430px;
+}
+.chats-texting{
+    display:flex;
+}
+.chats-input{
+  width: 500px;
+  padding: 15px 15px;
+  outline: none;
+  border: none;
+}
+.send{
+    padding: 15px 15px;
+    outline: none;
+    border: none;
+    background-color: #fff;
+    color: rgb(158, 158, 240);
+    font-size: 20px;
+    font-weight: 700;
+}
