@@ -6,40 +6,34 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Loop 1 - Step 4</title>
   <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700" rel="stylesheet">
-  <link rel="stylesheet" href="img/normalize.css">
+  <link rel="stylesheet" href="normalize.css">
   <link rel="stylesheet" href="./styles.css" />
 </head>
 <body>
     <main class="container">
        <header class="chats">
-        <ul class="chats-name">
-          <li>Mark zuckerberg</li>
-    
-            <img src="img/close.svg" alt="close button">
-        
-        </ul>
+        <div class="chats-name">
+          <div class="name">Mark zuckerberg</div>
+            <button class="close-button" type="button"  alt="close button"></button>
+        </div>
       </header>
          <section class="chats-text">
            <div class="today">Today</div>
            <div class="triangle"></div>
-           <p class="hours">10:53</p>
+                       <p class="hours">10:53</p>
            <div class="about-app">Hi!,Mark! I made a new design for Message App</div>
-           <div class="hours hours-second">10:57</div>
+                       <p class="hours hours-second">10:57</p>
            <div class="about-sending">Yo! Send it to my assistant and we'll review it during the year.</div>
-           <div class="hours">11:03</div>
+                       <p class="hours">11:03</p>
            <div class="about-mark">But Mark...</div>
-           <div class="hours hours-second">11:05</div>
+                       <p class="hours hours-second">11:05</p>
            <div class="about-users">You were blocked by users.</div>
-
-
-         </section>
+         </section> <hr>
          <footer class="chats-texting">
-        
-              
+           <form action="#">
               <input class="chats-input" type="text" placeholder="Enter your message" id="text" name="text">
-              <input class="send" type="submit" value="SEND">
-        
-
+              <input class="send" type="button" value="SEND">
+            </form>
          </footer>
     </main>
 </body>
